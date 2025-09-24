@@ -657,7 +657,7 @@ export const AlLocationDictionary: AlLocationDescriptor[] =
     {
         locTypeId: AlLocation.FortraPlatform,
         uri: 'https://foundation.foundation-dev.cloudops.fortradev.com',
-        environment: 'development|embedded-development',
+        environment: 'embedded-development',
         external: true,
         aliases: [
             'https://local.foundation.foundation-dev.cloudops.fortradev.com'
@@ -666,7 +666,7 @@ export const AlLocationDictionary: AlLocationDescriptor[] =
     {
         locTypeId: AlLocation.FortraPlatform,
         uri: 'https://foundation.foundation-stage.cloudops.fortradev.com',
-        environment: 'integration|embedded-integration',
+        environment: 'development|integration|embedded-integration',
         external: true
     },
     {
